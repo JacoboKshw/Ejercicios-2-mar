@@ -18,7 +18,6 @@ cc lex.yy.c -o punto1.out
 cc lex.yy.c -o punto2.out
 cc lex.yy.c -o punto3.out
 ```
-> Nota: flex siempre genera el archivo con el nombre `lex.yy.c`, por eso se repite en cada compilación.
 
 **Paso 3:** ejecutar pasando el archivo de texto
 ```bash
