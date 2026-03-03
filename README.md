@@ -14,9 +14,9 @@ flex punto3.l
 
 **Paso 2:** gcc compila el `.c` y genera el ejecutable `.out`
 ```bash
-gcc lex.yy.c -o punto1.out
-gcc lex.yy.c -o punto2.out
-gcc lex.yy.c -o punto3.out
+cc lex.yy.c -o punto1.out
+cc lex.yy.c -o punto2.out
+cc lex.yy.c -o punto3.out
 ```
 > Nota: flex siempre genera el archivo con el nombre `lex.yy.c`, por eso se repite en cada compilación.
 
